@@ -4,7 +4,7 @@
 
 
 ![License MIT](https://img.shields.io/badge/license-MIT-brightgreen?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/Clousbi/LandingPage?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/Clousbi/Calculadora-JS?style=for-the-badge)
 ![Badge Concluído](https://img.shields.io/badge/status-conclu%C3%ADdo-yellow?style=for-the-badge)
 
 
@@ -23,9 +23,10 @@
 
 ## 🔴 Descrição do Projeto
 
-> Inspirações e Estudos utilizados:
-* []()
-* 
+> Inspirações, Apps e Estudos utilizados:
+* [Emojipedia](https://emojipedia.org/)
+* [CSS Gradient](https://cssgradient.io/)
+* [Favicon.cc](https://www.favicon.cc/)
 
 
 ##  🔴 Status do Projeto
@@ -36,18 +37,19 @@
 
 ## :hammer: Funcionalidades do projeto
 
-- `Funcionalidade 1`: 
+- `Funcionalidade 1`: Calculadora com todas as operações.
 
 
 ## 🔴 Acesso ao projeto
 
-Você pode acessar o código na pasta [Código](https://github.coB3digo). 
+Você pode acessar o código na pasta [Código](https://github.com/Clousbi/Calculadora-JS/tree/main/c%C3%B3digo). 
 
 ## :white_check_mark: Tecnologias Utilizadas
 * HTML5;
-* CSS3.
+* CSS3;
+* JavaScript;
 
 ## Licença
-Calculadora-JS é licenciado pelo [MIT](https://github.com/Clousbi/LanPage/blob/main/LICENSE). 
+Calculadora-JS é licenciado pelo [MIT](https://github.com/Clousbi/Calculadora-JS/blob/main/LICENSE). 
 >
 A documentação do LPM (por exemplo, arquivos .md na pasta ./docs) também é licenciada pelo MIT.
