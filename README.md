@@ -22,33 +22,32 @@
 * [Licença](#licença)
 
 ## 🔴 Descrição do Projeto
-O projeto é um modelo simples de landing page com HTML5 e CSS3, com 3 divisões principais: header(cabeçalho), main(conteúdo), footer(rodapé).Foi feito no Visual Studio Code. Não é comercial e sim pra estudo de modelo base para outros landing page.
+
 > Inspirações e Estudos utilizados:
-* [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [LandingPage por Rafa Ballerini](https://youtu.be/llF6vD-RljE)
+* []()
+* 
 
 
 ##  🔴 Status do Projeto
  
-:construction:  Projeto concluído em Julho de 2022  :construction:
+:construction:  Projeto concluído em Setembro de 2022  :construction:
 
 
 
 ## :hammer: Funcionalidades do projeto
 
-- `Funcionalidade 1`: Cabeçalho com Flexbox e links para outras páginas
-- `Funcionalidade 2`: Conteúdo possui botão com funcional
+- `Funcionalidade 1`: 
 
 
 ## 🔴 Acesso ao projeto
 
-Você pode acessar o código na pasta [Código](https://github.com/Clousbi/LandingPage/tree/main/c%C3%B3digo). 
+Você pode acessar o código na pasta [Código](https://github.coB3digo). 
 
 ## :white_check_mark: Tecnologias Utilizadas
 * HTML5;
 * CSS3.
 
 ## Licença
-Landing Page Modelo é licenciado pelo [MIT](https://github.com/Clousbi/LandingPage/blob/main/LICENSE). 
+Calculadora-JS é licenciado pelo [MIT](https://github.com/Clousbi/LanPage/blob/main/LICENSE). 
 >
 A documentação do LPM (por exemplo, arquivos .md na pasta ./docs) também é licenciada pelo MIT.
