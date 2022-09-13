@@ -15,31 +15,31 @@
     </header>
     <main>
         <div class="container">
-            <p id="resultado"></p>
+            <p id="resultado"></p> <!--local onde aparece a operação-->
             <table>
                 <tr>
-                    <td><button class="op" onclick="insert('C')">C</button></td>
-                    <td><button class="op" onclick="operation('<')"><</button></td>
-                    <td><button class="op" onclick="operation('/')">/</button></td>
-                    <td><button class="op" onclick="operation('X')">X</button></td>
+                    <td><button class="op" onclick="clean('C')">C</button></td>
+                    <td><button class="op" onclick="backspace('<')"><</button></td>
+                    <td><button class="op" onclick="insert('/')">/</button></td>
+                    <td><button class="op" onclick="insert('*')">x</button></td>
                 </tr>
                 <tr>
                     <td><button class="n" onclick="insert('7')">7</button></td>
                     <td><button class="n" onclick="insert('8')">8</button></td>
                     <td><button class="n" onclick="insert('9')">9</button></td>
-                    <td><button class="op" onclick="operation('-')">-</button></td>
+                    <td><button class="op" onclick="insert('-')">-</button></td>
                 </tr>
                 <tr>
                     <td><button class="n" onclick="insert('4')">4</button></td>
                     <td><button class="n" onclick="insert('5')">5</button></td>
                     <td><button class="n" onclick="insert('6')">6</button></td>
-                    <td><button class="op" onclick="operation('+')">+</button></td>
+                    <td><button class="op" onclick="insert('+')">+</button></td>
                 </tr>
                 <tr>
                     <td><button class="n" onclick="insert('1')">1</button></td>
                     <td><button class="n" onclick="insert('2')">2</button></td>
                     <td><button class="n" onclick="insert('3')">3</button></td>
-                    <td rowspan="2"><button class="op" style="height: 52mm;" onclick="operation('=')">=</button></td>
+                    <td rowspan="2"><button class="op" style="height: 52mm;" onclick="result('=')">=</button></td>
                 </tr>
                 <tr>
                     <td colspan="2"><button class="n" style="width: 42mm;" onclick="insert('0')">0</button></td>
@@ -48,13 +48,24 @@
             </table>
         </div>
         <script>
-            function insert(num){
+            function insert(num){ //aparece o número na tabela
                 var numero = document.getElementById ('resultado').innerHTML;
                 document.getElementById ('resultado').innerHTML = numero + num;
             }
-            function operation(op){
-                document.getElementById ('resultado').innerHTML= op;
-                
+            function clean(){ // limpa a opreção inteira
+                document.getElementById('resultado').innerHTML = " ";
+            }
+            function backspace(){ // limpa somente um número
+                var resultado = document.getElementById ('resultado').innerHTML;
+                document.getElementById('resultado').innerHTML = resultado.substring(0,resultado.length -1);
+            }
+            function result(){//função da operação 
+                var resultado = document.getElementById ('resultado').innerHTML;
+                if (resultado){
+                    document.getElementById ('resultado').innerHTML = eval(resultado);
+                }else{
+                    document.getElementById ('resultado').innerHTML = "Não definido";
+                } 
             }
         </script>
 
